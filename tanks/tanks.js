@@ -20,7 +20,6 @@ const gunstat = {
 // tanks
 define.unknown_class = {
   label: "unknown class",
-  
 }
 define.base = {
   parent: define.unknown_class,
@@ -29,7 +28,8 @@ define.base = {
     {
       position: [1, 0.5, 1, 0, 0, 0, 0],
       properties: {
-        shoot_settings: stats([gunstat.blank])
+        shoot_settings: stats([gunstat.blank]),
+        type: define.bullet
       }
     }
   }
