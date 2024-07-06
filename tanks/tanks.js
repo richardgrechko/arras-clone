@@ -2,12 +2,12 @@ window.define = {}
 // stats
 const gunstat = {
   blank: {
-    reload: 1,
+    reload: 1/4,
     recoil: 1,
     shudder: 0,
     size: 1,
     health: 1,
-    damage: 1,
+    damage: 10,
     penetration: 1,
     speed: 1,
     max_speed: 1,
@@ -20,6 +20,13 @@ const gunstat = {
 // tanks
 define.unknown_class = {
   label: "unknown class",
+  body: {
+    health: 500,
+    shield: 200,
+    damage: 10,
+    regen: 10,
+    speed: 5
+  }
 }
 define.base = {
   parent: define.unknown_class,
