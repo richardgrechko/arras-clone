@@ -310,3 +310,4 @@ function drawHealth(x, y, instance, ratio, alpha) {
         ctx.globalAlpha = 1;
     }
 }
+drawEntity()
